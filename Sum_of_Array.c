@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main()   
 {
     int n,i,sum=0;
     scanf("%d",&n);
@@ -10,7 +10,7 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        sum=sum+a[i];
+    sum=sum+a[i];
     }
     printf("%d",sum);
 }
